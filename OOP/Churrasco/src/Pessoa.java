@@ -18,6 +18,19 @@ public class Pessoa {
     return idade;
   }
 
+  public void atualizarNome(String nome) {
+    if(nome.length() > 3){
+      this.setNome(nome);
+    }
+    else{
+      System.out.println("O nome deve ter mais que 3 caracteres");
+    }
+  }
+
+  public void setNome(String nome) {
+    this.nome = nome;
+  }
+
   public boolean isVegetariana() {
     return vegetariana;
   }
