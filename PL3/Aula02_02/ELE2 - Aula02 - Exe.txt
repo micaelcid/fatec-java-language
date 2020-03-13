@@ -1,0 +1,18 @@
+Ex. 1:
+- Fa�a um novo projeto chamado "Aula02_02". Nele dever� haver a classe "Principal" (no pacote "view") e uma outra chamada "Calculo", que dever� ser abstrata e estar no pacote "negocio";
+
+- na classe "Calculo", crie os atributos "valor1", "valor2" e "resultado", do tipo float; encapsule todos os atributos, mas deixe o "resultado" ser apenas de leitura ("get");
+
+- as opera��es aritm�ticas dever�o ficar, cada qual, numa classe com o nome da opera��o correspondente (o que ir� gerar as classes Adicao, Subtracao, Multiplicacao e Divisao).
+Essas classes dever�o herdar da classe abstrata Calculo, descrita acima, que, por sua vez, dever� implementar a interface ICalculo, descrita abaixo:
+
+interface ICalculo {
+    void calcular(); 
+}
+
+- por fim, na classe Principal, solicite ao usu�rio para informar a opera��o desejada, bem como os valores a serem trabalhados.
+De posse dessas informa��es, instancie a classe correspondente, realize o c�lculo e apresente o resultado.
+
+Nota: considere qual dos conceitos de upcasting/downcasting devem ser utilizados
+
+Dica: para receber os dados do usu�rio, utilize JOptionPane.showInputDialog...

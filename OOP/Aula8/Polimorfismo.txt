@@ -1,0 +1,15 @@
+Polimorfismo de Subtipos
+
+Polimorfismo (muitas formas)
+
+def: É o ato de se referenciar a um objeto de várias formas diferentes.
+
+Ex: Animal a = new Animal();
+    ref        objeto
+
+    Animal a = new Cachorro();
+
+    Object o = new Cachorro();
+
+
+Polimorfismo, Herança, sobre-escrita

@@ -1,0 +1,5 @@
+# Interfaces (implements)
+
+São um conjunto de métodos não abstratos (a partir do Java 8, métodos estáticos e default) e constantes.
+
+Não possuem atributos.

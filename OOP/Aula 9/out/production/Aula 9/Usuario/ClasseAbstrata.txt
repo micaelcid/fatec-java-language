@@ -1,0 +1,10 @@
+# Classes Abstratas (extends)
+
+São classes que possuem métodos abstratos, não podem ser instanciadas e generalizam comportamentos.
+
+Apesar de não poderem ser instanciadas, podem possuir construtor (e outros métodos não abstratos).
+
+Método abstrato é um método sem corpo - apenas a assinatura.
+- Ex: public abstract void metodo();
+
+Classes abstratas podem ter atributos
