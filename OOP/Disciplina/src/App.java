@@ -8,9 +8,11 @@ public class App {
 
     Matricula matricula = new Matricula();
 
-    matricula.matricular(disciplina1, aluno1);
-    matricula.matricular(disciplina1, aluno2);
+    matricula.matricular(aluno1, disciplina1);
+    matricula.matricular(aluno2, disciplina1);
+    matricula.matricular(aluno2, disciplina2);
+    matricula.matricular(aluno2, disciplina1);
 
-    matricula.listarDisciplinaPorAluno(aluno1);
+    matricula.listarDisciplinaPorAluno(aluno2);
   }
 }

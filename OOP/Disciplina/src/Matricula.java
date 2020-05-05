@@ -10,41 +10,57 @@ public class Matricula {
     this.alunoDisciplina = new HashMap<Aluno, ArrayList<Disciplina>>();
   }
 
-  public void matricular(Disciplina disciplina, Aluno aluno) {
-    if(disciplinaAluno.containsKey(disciplina)) {
-      ArrayList<Aluno> alunos = disciplinaAluno.get(disciplina);
-      alunos.add(aluno);
-      disciplinaAluno.put(disciplina, alunos);
-    }
-    else {
-      disciplinaAluno.put(disciplina, new ArrayList<Aluno>());
-      matricular(disciplina, aluno);
+  public void matricularAlunoDisciplina(Aluno aluno, Disciplina disciplina) {
+    if(!alunoDisciplina.containsKey(aluno)) {
+      alunoDisciplina.put(aluno, new ArrayList<Disciplina>());
     }
 
-    if(alunoDisciplina.containsKey((aluno))) {
-      ArrayList<Disciplina> disciplinas = alunoDisciplina.get(aluno);
+    ArrayList<Disciplina> disciplinas = alunoDisciplina.get(aluno);
+    if(!disciplinas.contains(disciplina)) {
       disciplinas.add(disciplina);
       alunoDisciplina.put(aluno, disciplinas);
     }
-    else {
-      alunoDisciplina.put(aluno, new ArrayList<Disciplina>());
-      matricular(disciplina, aluno);
+  }
+
+  public void matricularDisciplinaAluno(Disciplina disciplina, Aluno aluno) {
+    if(!disciplinaAluno.containsKey(disciplina)) {
+      disciplinaAluno.put(disciplina, new ArrayList<Aluno>());
     }
+
+    ArrayList<Aluno> alunos = disciplinaAluno.get(disciplina);
+    if(!alunos.contains(aluno)) {
+      alunos.add(aluno);
+      disciplinaAluno.put(disciplina, alunos);
+    }
+  }
+
+  public void matricular(Aluno aluno, Disciplina disciplina) {
+    matricularAlunoDisciplina(aluno, disciplina);
+    matricularDisciplinaAluno(disciplina, aluno);
   }
 
   public void listarAlunoPorDisciplina(Disciplina disciplina) {
     ArrayList<Aluno> alunos = disciplinaAluno.get(disciplina);
     disciplina.mostrar();
-    for(Aluno aluno : alunos) {
-      aluno.mostrar();
+    if(alunos != null) {
+      for(Aluno aluno : alunos) {
+        aluno.mostrar();
+      }
+    } else {
+      System.out.println("Nenhum aluno matriculado");
     }
   }
 
   public void listarDisciplinaPorAluno(Aluno aluno) {
     ArrayList<Disciplina> disciplinas = alunoDisciplina.get(aluno);
     aluno.mostrar();
-    for(Disciplina disciplina : disciplinas) {
-      disciplina.mostrar();
+    if(disciplinas != null) {
+      for(Disciplina disciplina : disciplinas) {
+        disciplina.mostrar();
+      }
+    } else {
+      System.out.println("Nenhuma disciplina matriculada");
     }
+
   }
 }
