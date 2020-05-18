@@ -1,5 +1,5 @@
 package model;
 
 interface ICalculo {
-    void calcular();
+    void calcular(float primeiroValor, float segundoValor);
 }

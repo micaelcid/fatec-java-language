@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da99851b-23e9-4fba-810b-cce6f1dfec88" name="Default Changelist" comment="" />
+    <list default="true" id="da99851b-23e9-4fba-810b-cce6f1dfec88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_01/Aula04_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_01/src/negocio/Hora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_01/src/negocio/Horario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_01/src/negocio/Minuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_01/src/negocio/Segundo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_01/src/negocio/Tempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_01/src/view/Relogio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/.idea/dictionaries/cid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/Aula04_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/src/aula/Aula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/src/aula/Disciplina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/src/pessoa/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/src/pessoa/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula04_02/src/pessoa/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_01/Aula05_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_01/src/view/Formulario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_01/src/view/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/Aula05_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/src/model/Adicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/src/model/Calculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/src/model/Divisao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/src/model/ICalculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/src/model/Multiplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/src/model/Subtracao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula05_02/src/view/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Disciplina/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Disciplina/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/Disciplina.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/Disciplina.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/Matricula.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/Disciplina/out/production/Disciplina/Matricula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aula02_02/view/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aula02_02/view/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ICalculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ICalculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Principal.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +59,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1Y03HYs4AvHFuPuXJdDXSIJFR1S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -69,7 +120,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582065596785</updated>
+      <workItem from="1589331287036" duration="422000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

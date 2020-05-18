@@ -1,10 +1,6 @@
 package view;
 
-import model.Calculo;
-import model.Adicao;
-import model.Subtracao;
-import model.Multiplicacao;
-import model.Divisao;
+import model.*;
 
 import javax.swing.*;
 
