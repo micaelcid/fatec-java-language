@@ -5,6 +5,8 @@ public class Multiplicacao extends Calculo {
         super(primeiroValor, segundoValor);
     }
 
+
+
     @Override
     public void calcular() {
         resultado = getPrimeiroValor() * getSegundoValor();

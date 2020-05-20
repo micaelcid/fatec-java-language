@@ -1,5 +1,7 @@
 package model;
 
+import java.awt.Font;
+
 public abstract class Calculo implements ICalculo {
     private float primeiroValor, segundoValor;
     protected float resultado;
@@ -9,7 +11,9 @@ public abstract class Calculo implements ICalculo {
         this.segundoValor = segundoValor;
     }
 
+
     public float getPrimeiroValor() {
+        new Font()
         return primeiroValor;
     }
 
